@@ -121,8 +121,8 @@ DROP COLUMN City_Council_Districts;
 ALTER TABLE squirrels
 DROP COLUMN police_precients;
 
-#Done with our editing, now onto Tableau!
+# Done with our editing, let's export the data and move onto Tableau!
 
 COPY squirrels
 TO '/Users/stephanie/Downloads/squirrels.csv'
-WITH (FORMAT CSV, HEADER, DELIMITER '|');
+WITH (FORMAT CSV, HEADER, DELIMITER ',');
