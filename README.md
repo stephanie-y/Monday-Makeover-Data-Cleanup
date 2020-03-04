@@ -6,5 +6,5 @@ The original table is from NYC Open Data: https://data.cityofnewyork.us/Environm
 
 Some tweaks to the data were made in order to make it easier for use in Tableau.
 The biggest things done were the following:
-1) Format of the data was changed from a string to an date format.
+1) Format of the data was changed from a string to a date format.
 2) Some unnecessary columns were removed.
